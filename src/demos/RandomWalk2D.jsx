@@ -19,7 +19,7 @@ export const RandomWalk2D = () => {
   }
 
   useEffect(() => {
-    const interval = setInterval(update, 10)
+    const interval = setInterval(update, 1)
     return () => clearInterval(interval)
   }, [data])
   // handtutorial
